@@ -28,11 +28,13 @@
 #         print('eres brian pero no Santeliz ni Gomez')
 # else:
 #     print('no eres brian')
-x=8
-if x > 2 & x <= 9:
-    print('x es mayor que 2 y menor que 10')
-
-
+x=19
+if x > 2 and x <= 10:
+    print('x es mayor que 2 y menor o igual a 10')
+if x>2 or x<= 20:
+    print('x es mayor a dos o menor igual a 20')
+if (not (x == 'y')):
+    print('x no es igual a y')
  
         
            
